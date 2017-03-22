@@ -61,4 +61,12 @@
         }
     });
 
+    debugger;
+
+    $(".serviceLink").hover(function() {
+        $(".serviceLink ul").css("visibility", "visible");
+    }, function() {
+        $(".serviceLink ul").css("visibility", "hidden");
+    });
+
 })(jQuery); // End of use strict
